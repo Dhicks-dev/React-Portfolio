@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Sidenav from './components/Sidenav'
 import Main from './components/main'
 import Projects from './components/Projects'
+import Contact from './components/contact'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Sidenav />
         <Main   />
         <Projects />
+        <Contact />
     </div>
   )
 }
